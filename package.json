@@ -1,8 +1,8 @@
 {
-  "name": "react-design-editor",
+  "name": "pdf-canvas",
   "version": "0.0.1",
-  "description": "React.js + ant.design + fabric.js",
-  "main": "index.js",
+  "description": "React.js + ant.design + fabric.js + react-pdf + react-design-editor + pdf-lib",
+  "main": "src/components/pdfviewer/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -p --config webpack.prod.js",
@@ -14,21 +14,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/salgum1114/react-design-editor.git"
+    "url": "git+https://github.com/terryarbase/pdf-canvas.git"
   },
   "keywords": [
     "React.js",
     "ant.design",
     "fabric",
     "design-editor",
-    "designer"
+    "designer",
+    "react-pdf",
+    "pdf-lib"
   ],
-  "author": "salgum1114",
+  "author": "terryarbase",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/salgum1114/react-design-editor/issues"
+    "url": "https://github.com/terryarbase/pdf-canvas/issues"
   },
-  "homepage": "https://salgum1114.github.io/react-design-editor",
+  "homepage": "https://github.com/terryarbase/pdf-canvas",
   "dependencies": {
     "@material-ui/core": "^3.9.3",
     "@material-ui/icons": "^3.0.2",
